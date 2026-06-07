@@ -742,12 +742,10 @@
   <div class="reveal">
     <h2 class="cta-title">Bring your characters<br>to <em>life</em></h2>
     <p class="cta-sub">Aro is in early access for indie animators and webtoon artists. Join the waitlist and be first to animate your characters.</p>
-    <div class="email-row">
-      <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address">
-      <button class="btn-primary" onclick="handleSubmit()">get access</button>
-    </div>
-    <p style="font-size:0.8rem; color:var(--ink3); margin-top:1rem; font-weight:300;">No spam. Just early access when we're ready for you.</p>
-  </div>
+   <form class="email-row" action="https://formspree.io/f/mpqepvdr" method="POST">
+     <input type="email" name="email" class="email-input" placeholder="your@email.com" aria-label="Email address" required>
+     <button type="submit" class="btn-primary">get access</button>
+   </form>
 </section>
 
 <footer>
